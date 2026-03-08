@@ -1,0 +1,21 @@
+
+        body {  
+                background-color:blue;
+                display: flex;
+                flex-direction: column; /* Coloca os itens um abaixo do outro (título/container) */
+                align-items: center;    /* Centraliza horizontalmente */
+                justify-content: center; /* Centraliza verticalmente se houver altura */
+                min-height: 100vh;      /* Garante que o corpo ocupe toda a altura da tela */
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                gap:20px;
+                
+            }
+
+
+        .col { border: 3px solid #973988; padding: 15px; border-radius: 8px; width: 300px; }
+
+        input { background-color: block; margin-bottom: 10px; width: 90%; }
+        
+        #visor { padding: 10px; border:10px; background-color:rgba(37, 6, 6, 0.055);margin-top: 20px; border-top: 2px solid #000; padding-top: 10px; }

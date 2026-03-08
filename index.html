@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gi Beleza e Bem Estar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+   <div class="col">
+        <h3>Adicionar Cliente</h3>
+        <input type="text" id="cliente" placeholder="Nome do Cliente">
+        <input type="number" id="preco" placeholder="Preço (R$)">
+        <input type="text" id="servico" placeholder="Serviço">
+        <button onclick="salvar()">Adicionar</button>
+    </div>
+
+    <div class="col">
+        <button onclick="relatorio()">Relatório</button>
+        <h3>Buscar Cliente</h3>
+        <input type="text" id="buscaNome" placeholder="Nome para busca...">
+        <button onclick="buscar()">Consultar</button>
+        
+        <div id="visor">
+            <p><strong>Nome:</strong> <span id="vNome">-</span></p>
+            <p><strong>Qtd Visitas:</strong> <span id="vVisitas">0</span></p>
+            <p><strong>Total Recebido:</strong> R$ <span id="vTotal">0.00</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
